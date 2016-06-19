@@ -109,14 +109,3 @@ public class Dog{
     }
   }
 }
-            }
-          }
-          
-        }
-        else{
-          continue;}
-      }
-      break;
-    }
-  }
-}
