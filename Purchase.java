@@ -7,19 +7,23 @@ public class Purchase{
     System.out.println("A big temple generates $15 and 5 zen each turn.");
     System.out.println("A small temple generates 3 zen each turn.");
     System.out.println("Do you want a big (-$70, press 1) or small (-$30, press 2) temple?");
+    
     while(true){
       Scanner temple = new Scanner(System.in);
       System.out.print("");
       int temple_choice = temple.nextInt();
+    
       if(temple_choice==2){
         x.money=x.money-70;
-        x.Small.add(Purchase_Name);
+        x.small_temple.add(Purchase_Name);
         break;
       }
+      
       else if(temple_choice==1){
         x.money=x.money-30;
-        x.Big.add(Purchase_Name);
+        x.big_temple.add(Purchase_Name);
         break;}
+      
       else{
       continue;}
     }
