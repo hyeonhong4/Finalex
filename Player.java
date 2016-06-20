@@ -9,8 +9,11 @@ public class Player{
   int dog_choice;
   int dog_love;
   int write;
+  int day;
+  String name;
   
-  public Player(int money, int zen,ArrayList big_temple,ArrayList small_temple,int dog,String dog_name, int dog_choice,int dog_love,int write){
+  public Player(String name,int money, int zen,ArrayList big_temple,ArrayList small_temple,int dog,String dog_name, int dog_choice,int dog_love,int write,int day){
+    this.name=name;
     this.money=money;
     this.zen=zen;
     this.small_temple=small_temple;
@@ -20,6 +23,8 @@ public class Player{
     this.dog_choice=dog_choice;
     this.dog_love=dog_love;
     this.write=write;
+    this.day=day;
   
   }
 }
+
