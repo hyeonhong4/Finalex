@@ -56,7 +56,6 @@ public class Final{
         }
         p1.day++;
       }  
-    }
     
     if(p1.money > 0 && p1.zen >= 100 && p1.big_temple.size() > 0 && p1.small_temple.size() > 1){
       System.out.println("Congretion!");
@@ -70,7 +69,7 @@ public class Final{
     System.out.println("ReGame? < Press 1");
     game_loop = tem.nextInt();
   }
-  
+  }
   
   public static void thief(Player x){
     if(x.dog>0){
