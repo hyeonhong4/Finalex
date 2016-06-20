@@ -19,12 +19,12 @@ public class Final{
       String name = player.nextLine();
       System.out.println("Boss: "+name+" you were a good worker, I am sad you are leaving the company. Good luck on becoming a monk.");
       System.out.println("Boss: "+name+" you get 30day.");
-      System.out.println("Master monk : Money 0↑, Zen 100↑, Small Temple 1↑ , Big Temple 1↑ ");
+      System.out.println("Master monk : Money > 0, Zen >= 100, Small Temple >= 1 , Big Temple >= 1 ");
       
       for(int i = 1; i<31;i++){
         System.out.println(i+" days");
         
-        if(p1.dog==1){
+        if(p1.dog>=1){
           System.out.println(p1.dog_name+" love : "+p1.dog_love);
         }
         
